@@ -1,0 +1,23 @@
+{
+  "name": "video_2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "webdriver:update": "webdriver-manager update",
+    "test": "mocha ./specs/firstSpec.js --timeout 30000"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "protractor": "^3.3.0",
+    "react-scripts": "^5.0.1",
+    "selenium-webdriver": "^4.21.0"
+  },
+  "devDependencies": {
+    "webdriver-manager": "^12.1.9"
+  }
+}
